@@ -7,7 +7,7 @@ class Base(DeclarativeBase):
     pass
 
 
-class Productos(Base):
+class Producto(Base):
     __tablename__ = 'productos'
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
