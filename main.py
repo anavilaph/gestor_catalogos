@@ -9,11 +9,11 @@ from tabulate import tabulate
 def menu():
     while True:
         print("\n--- GESTOR DE CATÁLOGOS ---")
-        print("1. Crear producto")
-        print("2. Ver productos")
-        print("3. Buscar producto")
-        print("4. Modificar producto")
-        print("5. Eliminar producto")
+        print("1. Crear el producto")
+        print("2. Ver los productos")
+        print("3. Buscar el producto")
+        print("4. Modificar el  producto")
+        print("5. Eliminar el producto")
         print("6. Salir")
 
         opc = input("Elige una opción: ")

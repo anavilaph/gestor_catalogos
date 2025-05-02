@@ -50,7 +50,7 @@ def modificar():
         desc = desc_var.get()
         precio = float(precio_var.get())
         actualizar_producto(id_, nombre, desc, precio)
-        messagebox.showinfo("Éxito", "Producto actualizado")
+        messagebox.showinfo("Éxito", "El producto se ha actualizado")
     except ValueError:
         messagebox.showerror("Error", "Datos inválidos")
 
@@ -58,7 +58,7 @@ def eliminar():
     try:
         id_ = int(id_var.get())
         eliminar_producto(id_)
-        messagebox.showinfo("Éxito", "Producto eliminado")
+        messagebox.showinfo("Éxito", "El producto se ha eliminado")
     except ValueError:
         messagebox.showerror("Error", "ID inválido")
 
