@@ -40,10 +40,10 @@ def menu():
             desc = input("Nueva descripción (o Enter): ") or None
             precio = input("Nuevo precio (o Enter): ")
             precio = float(precio) if precio else None
-            actualizar_producto(id_, nombre, desc, precio)
+            actualización_producto(id_, nombre, desc, precio)
         elif opc == "5":
             id_ = int(input("ID a eliminar: "))
-            eliminar_producto(id_)
+            borrar_producto(id_)
         elif opc == "6":
             break
 

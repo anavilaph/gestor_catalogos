@@ -20,7 +20,7 @@ def buscar_producto_por_id(prod_id):
     session.close()
     return producto
 
-def actualizar_producto(prod_id, nombre=None, descripcion=None, precio=None):
+def actualización_producto(prod_id, nombre=None, descripcion=None, precio=None):
     session = Session()
     producto = session.query(Producto).get(prod_id)
     if producto:
@@ -30,7 +30,7 @@ def actualizar_producto(prod_id, nombre=None, descripcion=None, precio=None):
         session.commit()
     session.close()
 
-def eliminar_producto(prod_id):
+def borrar_producto(prod_id):
     session = Session()
     producto = session.query(Producto).get(prod_id)
     if producto:
