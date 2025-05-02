@@ -39,7 +39,7 @@ def buscar():
             desc_var.set(p.descripcion)
             precio_var.set(str(p.precio))
         else:
-            messagebox.showinfo("No encontrado", "Producto no existe")
+            messagebox.showinfo("No se ha encontrado", "Producto no existe")
     except ValueError:
         messagebox.showerror("Error", "ID inválido")
 
