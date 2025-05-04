@@ -1,3 +1,8 @@
-sqlalchemy
-tabulate
-tkinter
+greenlet==3.2.1
+inflect==7.5.0
+more-itertools==10.7.0
+sqlacodegen==3.0.0
+SQLAlchemy==2.0.40
+tabulate==0.9.0
+typeguard==4.4.2
+typing_extensions==4.13.2
