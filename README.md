@@ -12,13 +12,7 @@ Aplicación de escritorio desarrollada en Python que permite gestionar productos
 ## Instalación
 
 1. Clonamos el repositorio:
-
-```bash
-git clone https://github.com/anavilaph/gestor_catalogos.git
-cd gestor_catalogos
-
- 2. Instalamos las dependencias:
-
+2. Instalamos las dependencias:
 pip install -r requirements.txt
 
 3. Creamos base de datos:
