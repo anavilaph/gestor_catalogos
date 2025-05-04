@@ -16,12 +16,3 @@ Aplicación de escritorio desarrollada en Python que permite gestionar productos
 ```bash
 git clone https://github.com/anavilaph/gestor_catalogos.git
 cd gestor_catalogos
-
-
-
-
-
-
-
-
-
