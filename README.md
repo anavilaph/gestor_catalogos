@@ -16,10 +16,10 @@ Aplicación de escritorio desarrollada en Python que permite gestionar productos
 git clone https://github.com/anavilaph/gestor_catalogos.git
 cd gestor_catalogos
 
-3. Instalamos las dependencias:
+2. Instalamos las dependencias:
 pip install -r requirements.txt
 
-4. Creamos base de datos:
+3. Creamos base de datos:
 -- crear_base_datos.sql
 
 DROP TABLE IF EXISTS productos;
@@ -40,7 +40,7 @@ Para crear la base de datos usando este script:
 
 sqlite3 productos.db < crear_base_datos.sql
 
-Cómo ejecutarlo: 
+4. Cómo ejecutarlo: 
 Lanzamos la aplicación con:
 python main.py
 
@@ -51,7 +51,7 @@ Buscar productos
 Modificar productos existentes
 Eliminar productos del catálogo
 
-Estructura final del proyecto
+5. Estructura final del proyecto
 
 gestor_catalogos/
 ├── crud.py              # Funciones CRUD
